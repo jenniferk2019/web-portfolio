@@ -258,6 +258,10 @@ li{
 
 /*portfolio*/
 
+#section-heading{
+    font-weight: 300;
+}
+
 .portfolio-item{
     align-items: center;
     justify-content: center;
