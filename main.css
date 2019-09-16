@@ -33,10 +33,6 @@ p{
     font-weight: 300;
 }
 
-img{
-    width: 24%;
-}
-
 /*header*/
 
 header{
@@ -146,7 +142,7 @@ li{
     z-index: 1;
 }
 
-.landing-text h1{
+#landing-text h1{
     font-size: 15rem;
     font-family: 'Syncopate', sans-serif;
     background: linear-gradient(to top, lightgreen, #fd57bf);
@@ -172,7 +168,7 @@ li{
 
 .about-heading h1{
     font-size: 10rem;
-    opacity: .3;
+    opacity: .2;
 }
 
 .about-heading h6{
@@ -187,12 +183,11 @@ li{
     margin-bottom: 6rem; 
 }
 
-.portfolio-img{
+.profile-img{
     flex: 1;
-}
-
-.portfolio-description{
-    flex: 1;
+    padding: 16px;
+    margin-left: 36%;
+    margin-bottom: 5%;
 }
 
 .about-details{
@@ -264,19 +259,20 @@ li{
 /*portfolio*/
 
 .portfolio-item{
-    display: flex;
     align-items: center;
     justify-content: center;
     margin-bottom: 5rem;
 }
 
-.portfolio-item:last-child{
-    margin-bottom: 0;
+.portfolio-img{
+    flex: 1;
+    margin-left: 38%;
+    margin-bottom: 5%;
 }
 
-.profile-img{
-    flex: 1;
-    width: 50rem;
+.portfolio-description{
+    align-content: center;
+    margin-left: 15%;
 }
 
 .portfolio-description h1{
@@ -289,7 +285,7 @@ li{
     font-size: 1.5rem;
     text-transform: uppercase;
     font-weight: 300;
-    opacity: 0.3;
+    opacity: 0.4;
 }
 
 .portfolio-description .cta{
@@ -352,8 +348,8 @@ textarea{
     width: 100%;
     text-align: center;
     background-color: lightgreen;
-    padding: 2rem 0;
-    position: relative;
+    padding: 3.5rem 0;
+    position: absolute;
     font-weight: 300;
 }
 
@@ -444,13 +440,13 @@ textarea{
     font-weight: 300; 
 }
 
-.has-margin-right{
+/* .has-margin-right{
     margin-right: 5rem;
-}
+} */
 
 /*media responsive*/
 
-@media screen and (min-width: 1000px) {
+/* @media screen and (min-width: 900px) {
     body{
         background: lightsalmon no-repeat center fixed;
         background-size: cover;
@@ -483,72 +479,6 @@ textarea{
     .icon-container{
         width: 7rem;
         height: 7rem;
-    }
-
-    .icon-container i{
-        font-size: 4rem;
-    }
-
-    .timeline ul{
-        margin: 0 0 0 auto;
-    }
-
-    .timeline .date::before{
-        left: -20rem;
-    }
-
-    .timeline .date::after{
-        left: -5.9rem;
-    }
-
-}
-
-@media screen and (min-width: 600px) {
-    body{
-        background: lightsalmon no-repeat center fixed;
-        background-size: cover;
-    }
-
-    .landing-text h1{
-        font-size: 5rem;
-    }
-
-    .landing-text h6{
-        font-size: 1.7rem;
-    }
-
-    .nav-list{
-        flex-direction: column;
-    }
-
-    li{
-        margin: 2rem 0;
-    }
-
-    .nav-link{
-        font-size: 4.5rem;
-    }
-
-    .about-heading h1{
-        font-size: 8rem;
-    }
-
-    .section-heading h1{
-        font-size: 3rem;
-    }
-
-    .about-details .nav-list{
-        flex-direction: initial;
-    }
-
-    .about-details li{
-        margin: 0 2rem;
-    }
-
-    .icon-container{
-        width: 7rem;
-        height: 7rem;
-        flex-direction: column;
     }
 
     .icon-container i{
@@ -641,4 +571,4 @@ textarea{
         right: 2rem;
     }
 
-} 
+}  */
